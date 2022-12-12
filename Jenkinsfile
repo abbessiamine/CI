@@ -33,7 +33,8 @@ pipeline {
         stage('stage2 : Maven Build Project') {
             steps {
                 echo "Build project"
-                sh 'mvn clean install '
+                sh "chmod +x mvnw "
+    		    sh "./mvnw package"
             }
         }
         
