@@ -5,7 +5,7 @@ node ('Slave') {
                 echo 'Pulling...';
                   git branch: 'main',
                   url : 'https://github.com/abbessiamine/CI.git',
-                  credentialsId : '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',
+                  credentialsId: 'github';
             
         }        
      
