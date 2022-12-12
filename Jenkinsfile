@@ -35,7 +35,6 @@ pipeline {
                 echo "Build project"
                 sh "chmod +x mvnw "
     		    sh "./mvnw package"
-                sh 'mvn clean install '
             }
         }
         
