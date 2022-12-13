@@ -43,6 +43,7 @@ pipeline {
               sh 'docker build -t abbessi/springapp:$BUILD_NUMBER .'
               
              }
+		}
 		
 		  
   
